@@ -1,0 +1,29 @@
+|FunctionalBob
+output <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+W => BobCircuit:inst.w
+W => inst7.IN1
+W => inst2.IN0
+X => BobCircuit:inst.x
+X => inst7.IN3
+Y => BobCircuit:inst.y
+Y => inst7.IN2
+Y => inst5.IN1
+Z => BobCircuit:inst.z
+Z => inst7.IN0
+Z => inst5.IN2
+
+
+|FunctionalBob|BobCircuit:inst
+b <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+w => b.IN0
+w => b.IN0
+x => b.IN0
+x => b.IN1
+y => b.IN1
+y => b.IN1
+y => b.IN1
+z => b.IN1
+z => b.IN1
+z => b.IN1
+
+

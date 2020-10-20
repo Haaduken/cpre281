@@ -1,0 +1,7 @@
+|mux2to1
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f << f.DB_MAX_OUTPUT_PORT_TYPE
+
+

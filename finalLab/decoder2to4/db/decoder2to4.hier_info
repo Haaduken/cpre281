@@ -1,0 +1,17 @@
+|decoder2to4
+pin_name1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+X => inst.IN0
+X => inst3.IN1
+X => inst5.IN1
+Y => inst1.IN0
+Y => inst4.IN1
+Y => inst5.IN0
+Enable => inst6.IN1
+Enable => inst7.IN1
+Enable => inst8.IN1
+Enable => inst9.IN1
+pin_name3 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+pin_name4 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+pin_name5 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,29 @@
+|lab10step3a
+pin_name2 <= seven_seg_decoder:inst9.b
+Input => inst3.IN0
+Input => inst2.IN0
+Input => inst1.IN0
+Input => inst.IN0
+clock => inst13.IN0
+pin_name3 <= seven_seg_decoder:inst9.c
+pin_name4 <= seven_seg_decoder:inst9.d
+pin_name5 <= seven_seg_decoder:inst9.e
+pin_name6 <= seven_seg_decoder:inst9.f
+h22 <= seven_seg_decoder:inst9.g
+g18 <= seven_seg_decoder:inst9.a
+
+
+|lab10step3a|seven_seg_decoder:inst9
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+
+

@@ -1,0 +1,9 @@
+|lab10step2b
+q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+input => inst.IN0
+clock => inst4.IN0
+q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

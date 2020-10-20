@@ -1,0 +1,7 @@
+module BobCircuit(b, w, x, y, z);
+input w, x, y, z;
+output b;
+
+assign b = (x&~y&z)+(w&y&z)+(~w&~x&y&~z);
+
+endmodule

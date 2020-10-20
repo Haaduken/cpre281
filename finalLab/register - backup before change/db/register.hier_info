@@ -1,0 +1,219 @@
+|register
+out3 <= mux4to1:inst19.f
+Clock => inst9.CLK
+Clock => inst8.CLK
+Clock => inst7.CLK
+Clock => inst6.CLK
+Clock => inst21.CLK
+Clock => inst17.CLK
+Clock => inst11.CLK
+Clock => inst10.CLK
+Clock => inst30.CLK
+Clock => inst28.CLK
+Clock => inst26.CLK
+Clock => inst24.CLK
+Clock => inst39.CLK
+Clock => inst37.CLK
+Clock => inst35.CLK
+Clock => inst33.CLK
+Input3 => mux2to1:inst14.w0
+Input3 => mux2to1:inst13.w0
+Input3 => mux2to1:inst12.w0
+Input3 => mux2to1:inst.w0
+writeAddr0 => decoder2to4:inst20000000.X
+writeAddr1 => decoder2to4:inst20000000.Y
+Enable => decoder2to4:inst20000000.Enable
+read1 => mux4to1:inst19.s1
+read1 => mux4to1:inst22.s1
+read1 => mux4to1:inst31.s1
+read1 => mux4to1:inst40.s1
+read0 => mux4to1:inst19.s0
+read0 => mux4to1:inst22.s0
+read0 => mux4to1:inst31.s0
+read0 => mux4to1:inst40.s0
+out2 <= mux4to1:inst22.f
+input2 => mux2to1:inst18.w0
+input2 => mux2to1:inst16.w0
+input2 => mux2to1:inst15.w0
+input2 => mux2to1:inst20.w0
+out1 <= mux4to1:inst31.f
+input1 => mux2to1:inst29.w0
+input1 => mux2to1:inst27.w0
+input1 => mux2to1:inst25.w0
+input1 => mux2to1:inst23.w0
+out0 <= mux4to1:inst40.f
+input0 => mux2to1:inst38.w0
+input0 => mux2to1:inst36.w0
+input0 => mux2to1:inst34.w0
+input0 => mux2to1:inst32.w0
+
+
+|register|mux4to1:inst19
+w3 => Mux0.IN0
+w2 => Mux0.IN1
+w1 => Mux0.IN2
+w0 => Mux0.IN3
+s1 => Mux0.IN4
+s0 => Mux0.IN5
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst14
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|decoder2to4:inst20000000
+pin_name1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+X => inst.IN0
+X => inst3.IN1
+X => inst5.IN1
+Y => inst1.IN0
+Y => inst4.IN1
+Y => inst5.IN0
+Enable => inst6.IN1
+Enable => inst7.IN1
+Enable => inst8.IN1
+Enable => inst9.IN1
+pin_name3 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+pin_name4 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+pin_name5 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst13
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst12
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux4to1:inst22
+w3 => Mux0.IN0
+w2 => Mux0.IN1
+w1 => Mux0.IN2
+w0 => Mux0.IN3
+s1 => Mux0.IN4
+s0 => Mux0.IN5
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst18
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst16
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst15
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst20
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux4to1:inst31
+w3 => Mux0.IN0
+w2 => Mux0.IN1
+w1 => Mux0.IN2
+w0 => Mux0.IN3
+s1 => Mux0.IN4
+s0 => Mux0.IN5
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst29
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst27
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst25
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst23
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux4to1:inst40
+w3 => Mux0.IN0
+w2 => Mux0.IN1
+w1 => Mux0.IN2
+w0 => Mux0.IN3
+s1 => Mux0.IN4
+s0 => Mux0.IN5
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst38
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst36
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst34
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register|mux2to1:inst32
+w1 => f.DATAB
+w0 => f.DATAA
+s0 => Decoder0.IN0
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

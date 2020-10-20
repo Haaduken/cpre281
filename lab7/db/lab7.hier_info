@@ -1,0 +1,112 @@
+|lab7
+overflow <= Adder4Bit:inst.overflow
+x3 => Adder4Bit:inst.x3
+y3 => inst2.IN0
+ctrl => inst2.IN1
+ctrl => inst3.IN1
+ctrl => inst4.IN1
+ctrl => inst5.IN1
+ctrl => Adder4Bit:inst.Cin
+x2 => Adder4Bit:inst.x2
+y2 => inst3.IN0
+x1 => Adder4Bit:inst.x1
+y1 => inst4.IN0
+x0 => Adder4Bit:inst.x0
+y0 => inst5.IN0
+Cout <= Adder4Bit:inst.Cout
+s3 <= Adder4Bit:inst.s3
+s2 <= Adder4Bit:inst.s2
+s1 <= Adder4Bit:inst.s1
+s0 <= Adder4Bit:inst.s0
+
+
+|lab7|Adder4Bit:inst
+x3 => x3.IN1
+y3 => y3.IN1
+x2 => x2.IN1
+y2 => y2.IN1
+x1 => x1.IN1
+y1 => y1.IN1
+x0 => x0.IN1
+y0 => y0.IN1
+Cin => Cin.IN1
+Cout <= FA:b2v_inst.Cout
+s3 <= FA:b2v_inst.s
+s2 <= FA:b2v_inst1.s
+s1 <= FA:b2v_inst2.s
+s0 <= FA:b2v_inst3.s
+overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|Adder4Bit:inst|FA:b2v_inst
+x => Cout.IN0
+x => Cout.IN0
+x => Cout.IN0
+x => s.IN1
+y => s.IN0
+y => Cout.IN1
+y => Cout.IN1
+y => Cout.IN1
+Cin => s.IN1
+Cin => s.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => s.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|Adder4Bit:inst|FA:b2v_inst1
+x => Cout.IN0
+x => Cout.IN0
+x => Cout.IN0
+x => s.IN1
+y => s.IN0
+y => Cout.IN1
+y => Cout.IN1
+y => Cout.IN1
+Cin => s.IN1
+Cin => s.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => s.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|Adder4Bit:inst|FA:b2v_inst2
+x => Cout.IN0
+x => Cout.IN0
+x => Cout.IN0
+x => s.IN1
+y => s.IN0
+y => Cout.IN1
+y => Cout.IN1
+y => Cout.IN1
+Cin => s.IN1
+Cin => s.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => s.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7|Adder4Bit:inst|FA:b2v_inst3
+x => Cout.IN0
+x => Cout.IN0
+x => Cout.IN0
+x => s.IN1
+y => s.IN0
+y => Cout.IN1
+y => Cout.IN1
+y => Cout.IN1
+Cin => s.IN1
+Cin => s.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => s.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

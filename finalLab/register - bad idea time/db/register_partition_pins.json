@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Aa",
+					"strict" : false
+				},
+				{
+					"name" : "Ab",
+					"strict" : false
+				},
+				{
+					"name" : "Ac",
+					"strict" : false
+				},
+				{
+					"name" : "Ad",
+					"strict" : false
+				},
+				{
+					"name" : "Ae",
+					"strict" : false
+				},
+				{
+					"name" : "Af",
+					"strict" : false
+				},
+				{
+					"name" : "Ag",
+					"strict" : false
+				},
+				{
+					"name" : "Ba",
+					"strict" : false
+				},
+				{
+					"name" : "Bb",
+					"strict" : false
+				},
+				{
+					"name" : "Bc",
+					"strict" : false
+				},
+				{
+					"name" : "Bd",
+					"strict" : false
+				},
+				{
+					"name" : "Be",
+					"strict" : false
+				},
+				{
+					"name" : "Bf",
+					"strict" : false
+				},
+				{
+					"name" : "Bg",
+					"strict" : false
+				},
+				{
+					"name" : "Ca",
+					"strict" : false
+				},
+				{
+					"name" : "Cb",
+					"strict" : false
+				},
+				{
+					"name" : "Cc",
+					"strict" : false
+				},
+				{
+					"name" : "Cd",
+					"strict" : false
+				},
+				{
+					"name" : "Ce",
+					"strict" : false
+				},
+				{
+					"name" : "Cf",
+					"strict" : false
+				},
+				{
+					"name" : "Cg",
+					"strict" : false
+				},
+				{
+					"name" : "Da",
+					"strict" : false
+				},
+				{
+					"name" : "Db",
+					"strict" : false
+				},
+				{
+					"name" : "Dc",
+					"strict" : false
+				},
+				{
+					"name" : "Dd",
+					"strict" : false
+				},
+				{
+					"name" : "De",
+					"strict" : false
+				},
+				{
+					"name" : "Df",
+					"strict" : false
+				},
+				{
+					"name" : "Dg",
+					"strict" : false
+				},
+				{
+					"name" : "input0",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "in2",
+					"strict" : false
+				},
+				{
+					"name" : "in1",
+					"strict" : false
+				},
+				{
+					"name" : "input1",
+					"strict" : false
+				},
+				{
+					"name" : "input2",
+					"strict" : false
+				},
+				{
+					"name" : "Input3",
+					"strict" : false
+				},
+				{
+					"name" : "Push",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

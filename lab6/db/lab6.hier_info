@@ -1,0 +1,98 @@
+|lab6
+2a <= seven_seg_decoder:inst2.a
+1w => lab6step0:inst5.S0
+1x => lab6step0:inst5.S1
+1y => lab6step0:inst5.S2
+1z => lab6step0:inst5.S3
+Ci => lab6step0:inst5.C0
+2b <= seven_seg_decoder:inst2.b
+2c <= seven_seg_decoder:inst2.c
+2d <= seven_seg_decoder:inst2.d
+2e <= seven_seg_decoder:inst2.e
+2f <= seven_seg_decoder:inst2.f
+2g <= seven_seg_decoder:inst2.g
+3a <= seven_seg_decoder:inst3.a
+3b <= seven_seg_decoder:inst3.b
+3c <= seven_seg_decoder:inst3.c
+3d <= seven_seg_decoder:inst3.d
+3e <= seven_seg_decoder:inst3.e
+3f <= seven_seg_decoder:inst3.f
+3g <= seven_seg_decoder:inst3.g
+
+
+|lab6|seven_seg_decoder:inst2
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+
+
+|lab6|lab6step0:inst5
+S0 => N1X0.DATAIN
+S1 => N2X0.IN1
+S1 => N2X0.IN1
+S1 => N1X3.IN1
+S1 => N1X3.IN1
+S1 => N1X2.IN1
+S1 => N1X1.IN1
+S1 => N1X1.IN1
+S1 => N1X1.IN1
+S1 => N1X3.IN1
+S1 => N1X2.IN1
+S1 => N1X1.IN1
+S1 => N1X1.IN1
+S2 => N2X1.IN0
+S2 => N2X0.IN1
+S2 => N2X0.IN0
+S2 => N1X3.IN1
+S2 => N1X2.IN1
+S2 => N1X2.IN0
+S2 => N1X1.IN0
+S2 => N2X0.IN1
+S2 => N1X3.IN1
+S2 => N1X2.IN1
+S3 => N2X1.IN0
+S3 => N2X0.IN0
+S3 => N2X0.IN1
+S3 => N2X0.IN0
+S3 => N1X2.IN0
+S3 => N1X1.IN1
+S3 => N1X1.IN1
+C0 => N2X1.IN1
+C0 => N2X1.IN1
+C0 => N2X0.IN1
+C0 => N2X0.IN1
+C0 => N1X2.IN1
+C0 => N1X2.IN1
+C0 => N1X1.IN1
+N2X3 <= <GND>
+N2X2 <= <GND>
+N2X1 <= N2X1.DB_MAX_OUTPUT_PORT_TYPE
+N2X0 <= N2X0.DB_MAX_OUTPUT_PORT_TYPE
+N1X3 <= N1X3.DB_MAX_OUTPUT_PORT_TYPE
+N1X2 <= N1X2.DB_MAX_OUTPUT_PORT_TYPE
+N1X1 <= N1X1.DB_MAX_OUTPUT_PORT_TYPE
+N1X0 <= S0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6|seven_seg_decoder:inst3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+
+
